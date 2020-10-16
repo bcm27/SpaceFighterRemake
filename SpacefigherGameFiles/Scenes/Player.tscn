@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://sprites/Player/playership.png" type="Texture" id=1]
+
+[node name="Player" type="KinematicBody2D"]
+position = Vector2( 513.147, 493.692 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PoolVector2Array( -17.9725, 4.90768, -5.92106, -3.83289, -2.61024, -20.7843, 2.68707, -21.0492, 6.13033, -3.96532, 18.3142, 3.84821, 18.4466, 11.6618, 5.07088, 13.1185, 3.08438, 18.151, -3.13997, 18.8131, -4.8616, 13.1185, -18.1049, 12.3239 )
+
+[node name="playership" type="Sprite" parent="."]
+position = Vector2( -0.22644, -0.389648 )
+texture = ExtResource( 1 )
