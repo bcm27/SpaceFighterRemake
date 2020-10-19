@@ -69,6 +69,14 @@ character_fire={
  ]
 }
 
+[layer_names]
+
+2d_render/layer_3=false
+2d_render/layer_environment=false
+2d_render/layer_player=false
+"2d_render/Layer Bullet"=false
+"2d_render/Layer Enemies"=false
+
 [rendering]
 
 environment/default_environment="res://default_env.tres"

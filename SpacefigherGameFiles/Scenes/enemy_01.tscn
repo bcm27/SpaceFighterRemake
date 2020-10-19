@@ -1,6 +1,7 @@
-[gd_scene load_steps=15 format=2]
+[gd_scene load_steps=16 format=2]
 
 [ext_resource path="res://sprites/Enemies/enemy1_strip11.png" type="Texture" id=1]
+[ext_resource path="res://Scenes/enemy_01.gd" type="Script" id=2]
 
 [sub_resource type="AtlasTexture" id=1]
 flags = 4
@@ -70,6 +71,7 @@ extents = Vector2( 12.1864, 13.194 )
 
 [node name="enemy_01" type="KinematicBody2D"]
 position = Vector2( 515.481, 69.1627 )
+script = ExtResource( 2 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 position = Vector2( 1.52588e-05, 1.26134 )
